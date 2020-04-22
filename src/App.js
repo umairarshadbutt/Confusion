@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import {Navbar, NavbarBrand} from 'reactstrap'
+import {Navbar, NavbarBrand} from 'reactstrap';
+import Menu from "./MenuComponent";
 function App() {
   return (
       <div className="App">
@@ -9,6 +10,7 @@ function App() {
             <NavbarBrand href="/">Ristornate Con Fusion</NavbarBrand>
           </div>
         </Navbar>
+          <Menu/>
       </div>
   );
 }
